@@ -57,7 +57,7 @@ class YelpClient: BDBOAuth1RequestOperationManager {
         
         var parameters: [String : AnyObject] = ["term": term, "ll": "37.785771,-122.406165"]
         
-        if sort ! = nil {
+        if sort != nil {
             parameters["sort"] = sort!.rawValue
         }
         
@@ -102,4 +102,4 @@ class YelpClient: BDBOAuth1RequestOperationManager {
     
     
     
-}
+
